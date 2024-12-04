@@ -130,13 +130,13 @@
             <h2 class="footer-heading mb-3">Social Media</h2>
             <div class="row">
               <div class="col-4 gal_col">
-                <a href="#"><img src="images/logo_ig.jpg" alt="Image" class="img-fluid"></a>
+                <a href="#"><img src="images/logo_ig.jpg" alt="Image 1" >
               </div>
               <div class="col-4 gal_col">
-                <a href="#"><img src="images/insta_2.jpg" alt="Image" class="img-fluid"></a>
+                <a href="#"><img src="images/logo_ig.jpg" alt="Image 2" >
               </div>
               <div class="col-4 gal_col">
-                <a href="#"><img src="images/insta_3.jpg" alt="Image" class="img-fluid"></a>
+                <a href="#"><img src="images/logo_ig.jpg" alt="Image 3" >
               </div>
             </div>
           </div>
