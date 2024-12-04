@@ -55,7 +55,7 @@
             <div class="col-3 ">
               <div class="site-logo">
                 <a href="index.html" class="font-weight-bold">
-                  <img src="{{ asset("template/images/logo.png") }}" alt="Image" class="img-fluid">
+                  <img src="{{ asset("template/images/LOGO.png") }}" alt="Image" class="img-fluid">
                 </a>
               </div>
             </div>
@@ -127,25 +127,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <h2 class="footer-heading mb-3">Instagram</h2>
+            <h2 class="footer-heading mb-3">Social Media</h2>
             <div class="row">
               <div class="col-4 gal_col">
-                <a href="#"><img src="images/insta_1.jpg" alt="Image" class="img-fluid"></a>
+                <a href="#"><img src="images/logo_ig.jpg" alt="Image" class="img-fluid"></a>
               </div>
               <div class="col-4 gal_col">
                 <a href="#"><img src="images/insta_2.jpg" alt="Image" class="img-fluid"></a>
               </div>
               <div class="col-4 gal_col">
                 <a href="#"><img src="images/insta_3.jpg" alt="Image" class="img-fluid"></a>
-              </div>
-              <div class="col-4 gal_col">
-                <a href="#"><img src="images/insta_4.jpg" alt="Image" class="img-fluid"></a>
-              </div>
-              <div class="col-4 gal_col">
-                <a href="#"><img src="images/insta_5.jpg" alt="Image" class="img-fluid"></a>
-              </div>
-              <div class="col-4 gal_col">
-                <a href="#"><img src="images/insta_6.jpg" alt="Image" class="img-fluid"></a>
               </div>
             </div>
           </div>
@@ -163,7 +154,7 @@
               </div>
               <div class="col-lg-6">
                 <h2 class="footer-heading mb-4">Newsletter</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt odio iure animi ullam quam, deleniti rem!</p>
+                <p>Tulis kesan kesan disini!</p>
                 <form action="#" class="d-flex" class="subscribe">
                   <input type="text" class="form-control mr-3" placeholder="Email">
                   <input type="submit" value="Send" class="btn btn-primary">

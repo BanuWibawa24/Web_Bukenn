@@ -16,12 +16,12 @@
     }
   </style>
   <div class="ftco-blocks-cover-1">
-    <div class="site-section-cover overlay" style="background-image: url({{ asset('template/images/bg_home2.jpg') }})">
+    <div class="site-section-cover overlay" style="background-image: url({{ asset('template/images/2.jpg') }})">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-5" data-aos="fade-right">
-            <h1 class="mb-3 text-white">Wisata Buken</h1>
-            <p>Nikmati Petualangan di Taman Satwa dan Segarkan Diri di Kolam Renang</p>
+          <div class="col-md-10" data-aos="fade-left">
+            <h1 class="mb-3 text-white">Wisata Bukit Kendalisada (BUKEN)</h1>
+            <p>Nikmati Ciblon Dengan Pemandangan Alam yang menarik dan udara yang sejuk </p>
             <p class="d-flex align-items-center">
               {{-- <a href="https://vimeo.com/191947042" data-fancybox class="play-btn-39282 mr-3"><span class="icon-play"></span></a>  --}}
               <a class="btn btn-primary" href="payment-ticket">Beli Tiket Disini</a>
@@ -41,12 +41,12 @@
             <span class="subtitle-39191">Tentang Kami</span>
             <h3>Kenali Lebih Dekat Tempat Wisata dan Pengalaman yang Kami Tawarkan</h3>
           </div>
-          <p>Terletak di jantung Purwokerto, Wisata Buken (Bukit Kenangan) menawarkan pengalaman wisata alam yang menyegarkan bagi keluarga dan pecinta alam. Dengan suasana yang sejuk dan pemandangan alam yang memukau, tempat ini menghadirkan kombinasi sempurna antara rekreasi dan edukasi.</p>
+          <p>Terletak di jantung Purwokerto, Wisata Buken (Bukit Kendalisada) menawarkan pengalaman wisata alam yang menyegarkan bagi keluarga dan pecinta alam. Dengan suasana yang sejuk dan pemandangan alam yang memukau, tempat ini menghadirkan kombinasi sempurna antara rekreasi dan edukasi.</p>
           {{-- <p>Tempat unggulan kami, Taman Satwa dan Kolam Renang, menjadikan Wisata Buken destinasi favorit bagi pengunjung yang ingin menikmati keindahan satwa sambil bersantai di kolam yang bersih dan menyegarkan. Tidak hanya itu, kami juga menyediakan berbagai spot foto yang instagramable dan fasilitas yang nyaman untuk seluruh keluarga.</p> --}}
           <p>Dari perjalanan bersama teman hingga petualangan bersama keluarga, Wisata Buken adalah tempat di mana kenangan indah tercipta. Kami bangga menjadi bagian dari liburan tak terlupakan Anda.</p>
         </div>
         <div class="col-md-6" data-aos="fade-right">
-          <img src="images/traveler.jpg" alt="Image" class="img-fluid">
+          <img src= "{{ asset("template/images/petunjuk.jpg") }}" alt="Image" class="img-fluid">
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@
         <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
           <div class="listing-item">
             <div class="listing-image">
-              <img src="{{ asset("template/images/about_2.png") }}" alt="Image" class="img-fluid">
+              <img src="{{ asset("template/images/TAMANSATWA.jpg") }}" alt="Image" class="img-fluid">
             </div>
             <div class="listing-item-content">
               <h2 class="mb-1"><a href="trip-single.html">Taman Satwa</a></h2>
@@ -78,7 +78,7 @@
         <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
           <div class="listing-item">
             <div class="listing-image">
-              <img src="{{ asset("template/images/about_2.png") }}" alt="Image" class="img-fluid">
+              <img src="{{ asset("template/images/45.jpg") }}" alt="Image" class="img-fluid">
 
             </div>
             <div class="listing-item-content">
@@ -90,12 +90,12 @@
         <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
           <div class="listing-item">
             <div class="listing-image">
-              <img src="{{ asset("template/images/about_3.jpg") }}" alt="Image" class="img-fluid">
+              <img src="{{ asset("template/images/AULA.jpg") }}" alt="Image" class="img-fluid">
            
 
             </div>
             <div class="listing-item-content">
-              <h2 class="mb-1"><a href="trip-single.html">Taman Kanak-Kanak</a></h2>
+              <h2 class="mb-1"><a href="trip-single.html"> Aula Outdoor/ Indoor </a></h2>
             </div>
           </div>
         </div>
@@ -103,11 +103,11 @@
         <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
           <div class="listing-item">
             <div class="listing-image">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pi7bqIeTBxfv18jv7ryFuooOylYj6wd6zw&s" alt="Image" class="img-fluid">
+              <img src="{{ asset ("template/images/5.jpg") }} " alt="Image" class="img-fluid">
 
             </div>
             <div class="listing-item-content">
-              <h2 class="mb-1"><a href="trip-single.html">Tempat Makan</a></h2>
+              <h2 class="mb-1"><a href="trip-single.html">Tempat Transit</a></h2>
             </div>
           </div>
         </div>
@@ -148,29 +148,17 @@
     </div>
     <div class="row mx-auto">
       <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rDa5LHl8AGNMUpaFywo_yL7Ko8r4BFlOaQ&s" alt="Image 1">
+        <img  src="{{ asset("template/images/1.jpg") }}" alt="Image 1" >
       </div>
       <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8gTMQ-iHWlxYInGzaPakAuDBxrdzewJJ7g&s" alt="Image 2">
+        <img  src="{{ asset("template/images/2.jpg") }}" alt="Image 2" >
+      </div>;
+      <div class="col-lg-3 col-md-4 col-12 gallery-item">
+        <img  src="{{ asset("template/images/img_2.jpg") }}" alt="Image 3">
       </div>
       <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://dolanbanyumas.banyumaskab.go.id/assets/gambar_objek/hutan-pinus-limpakuwus.jpg" alt="Image 3">
-      </div>
-      <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://dolanbanyumas.banyumaskab.go.id/assets/gambar_objek/pagubugan-melung.jpeg" alt="Image 4">
-      </div>
-      <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://dolanbanyumas.banyumaskab.go.id/assets/gambar_objek/waroenk-ora-umum.jpg" alt="Image 5">
-      </div>
-      <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://dolanbanyumas.banyumaskab.go.id/assets/gambar_objek/coffee-shop-karaoke-doelbada.jpg" alt="Image 6">
-      </div>
-      <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://lh5.googleusercontent.com/p/AF1QipM7n_SMXvcjwoUU8JYZh_6ZTtsK02qg6147Mv32=w608-h351-n-k-no" alt="Image 7">
-      </div>
-      <div class="col-lg-3 col-md-4 col-12 gallery-item">
-        <img  src="https://lh5.googleusercontent.com/p/AF1QipMGGmDUj9PUz0ptc4f4vr-T3OXXQWxFRFpQo0pG=w608-h351-n-k-no" alt="Image 8">
-      </div>
+        <img  src="{{ asset("template/images/img_3.jpg") }}" alt="Image 4">
+      <div>
     </div>
   </div>
 
@@ -241,15 +229,15 @@
             <ul class="list-unstyled footer-link">
               <li class="d-block mb-3">
                 <span class="d-block text-black">Address:</span>
-                <span> Banjarsari Kulon, Banyumas, Jawa Tengah</span>
+                <span> Banjarsari Kulon, Sumbang, Banyumas, Jawa Tengah</span>
               </li>
               <li class="d-block mb-3">
                 <span class="d-block text-black">Phone:</span>
-                <span>+62 821 3353 9130</span>
+                <span>+62 87 251 525</span>
               </li>
               <li class="d-block mb-3">
                 <span class="d-block text-black">Email:</span>
-                <span>wisatabuken@gmail.com</span>
+                <span>wisatabuken2016@gmail.com</span>
               </li>
             </ul>
           </div>
