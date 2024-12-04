@@ -241,15 +241,15 @@
             <ul class="list-unstyled footer-link">
               <li class="d-block mb-3">
                 <span class="d-block text-black">Address:</span>
-                <span>34 Street Name, City Name Here, United States</span>
+                <span> Banjarsari Kulon, Banyumas, Jawa Tengah</span>
               </li>
               <li class="d-block mb-3">
                 <span class="d-block text-black">Phone:</span>
-                <span>+1 242 4942 290</span>
+                <span>+62 821 3353 9130</span>
               </li>
               <li class="d-block mb-3">
                 <span class="d-block text-black">Email:</span>
-                <span>info@yourdomain.com</span>
+                <span>wisatabuken@gmail.com</span>
               </li>
             </ul>
           </div>
